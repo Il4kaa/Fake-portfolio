@@ -12,8 +12,8 @@
 ---
 
 ## 🛠 Технологический стек
-* **Framework:** Next.js 15 (App Router)
-* **Styling:** Tailwind CSS (Custom Design)
+* **Framework:** Next.js 15
+* **Styling:** Tailwind CSS
 * **Language:** TypeScript
 * **Icons:** Lucide React
 * **Deployment:** Netlify
