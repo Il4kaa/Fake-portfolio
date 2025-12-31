@@ -8,7 +8,7 @@ interface TestimonialsCard {
 };
 
 const myCards : TestimonialsCard[] = [
-    {id:"1", icon:"/37d95b589714c152ae7fd1a088dd0c63.jpg", name: "Александр Петренко", worked: "CEO, TechStart", title: "(*****) создал для нас замечательное веб-приложение!", feedback: "⭐⭐⭐⭐⭐"},
+    {id:"1", icon:"/37d95b589714c152ae7fd1a088dd0c63.jpg", name: "Александр Петренко", worked: "CEO, TechStart", title: "Он создал для нас замечательное веб-приложение!", feedback: "⭐⭐⭐⭐⭐"},
     {id: "2", icon: "/37d95b589714c152ae7fd1a088dd0c63.jpg", name: "Мария Коваленко", worked: "Дизайнер, Creative Studio", title: "Отличное сотрудничество!", feedback: "⭐⭐⭐⭐⭐"},
     {id: "3", icon: "/37d95b589714c152ae7fd1a088dd0c63.jpg", name: "Игорь Сидоренко", worked: "CTO, Digital Agency", title: "Рекомендую!", feedback: "⭐⭐⭐⭐⭐"},
 ];
@@ -40,3 +40,4 @@ export default function Testimonials({textTestimonials}: {textTestimonials: stri
         </section>
     )
 }
+
