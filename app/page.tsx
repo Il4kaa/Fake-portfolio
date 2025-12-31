@@ -11,7 +11,7 @@ export default function Home() {
       <section>
         <Header logoText="Portfolio" />
         <div className="text-center py-72">
-          <h1 className="text-blue-600 text-8xl font-black">Привет, я (*****)</h1>
+          <h1 className="text-blue-600 text-8xl font-black">Привет, я Il4kaa</h1>
           <p className="text-gray-400 font-mono text-2xl pt-16 pb-10">Делаю красивые и функциональные веб приложения</p>
           <a href="#contact" className="text-2xl font-black font-mono bg-blue-600 rounded-full shadow-xl px-8 py-3 hover:shadow-cyan-500/75 duration-300 transition">Contact me</a>
         </div>
