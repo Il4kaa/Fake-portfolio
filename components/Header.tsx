@@ -18,11 +18,12 @@ export default function Header({logoText}: {logoText: string} ) {
               <a onClick={() => setIsOpen(false)} href="#skills" className="text-2xl md:text-base text-neutral-300 font-mono shadow-2xl hover:text-blue-500 duration-300 transition">Навыки</a>
               <a onClick={() => setIsOpen(false)} href="#testimonials" className="text-2xl md:text-base text-neutral-300 font-mono shadow-2xl hover:text-blue-500 duration-300 transition">Отзывы</a>
               <a onClick={() => setIsOpen(false)} href="#projects" className="text-2xl md:text-base text-neutral-300 font-mono shadow-2xl hover:text-blue-500 duration-300 transition">Проекты</a>
-              <a onClick={() => setIsOpen(false)} href="#contact" className="text-2xl md:text-base text-white font-mono shadow-2xl duration-300 transition bg-blue-600 rounded-[2rem] hover:bg-blue-500 p-4">Контакты</a>
+              <a onClick={() => setIsOpen(false)} href="#contact" className="text-2xl md:text-base text-white font-mono shadow-2xl duration-300 transition bg-blue-700 rounded-[2rem] hover:bg-blue-600 p-4">Контакты</a>
             </nav>
 
           </div>
         </header>
     );
 }
+
 
