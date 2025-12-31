@@ -7,9 +7,9 @@ interface ContactLink {
 }
 
 const myContacts: ContactLink[] = [
-  { id: "1", name: "Telegram", value: "@your_nick", link: "https://t.me/your_nick", color: "hover:shadow-blue-500/40" },
-  { id: "2", name: "GitHub", value: "github.com/nick", link: "https://github.com/your_nick", color: "hover:shadow-white/20" },
-  { id: "3", name: "Email", value: "work@mail.com", link: "mailto:work@mail.com", color: "hover:shadow-cyan-500/40" },
+  { id: "1", name: "Telegram", value: "@il4kaa", link: "https://t.me/il4kaa", color: "hover:shadow-blue-500/40" },
+  { id: "2", name: "GitHub", value: "Il4kaa", link: "https://github.com/Il4kaa", color: "hover:shadow-white/20" },
+  { id: "3", name: "Email", value: "Написать на почту", link: "https://mail.google.com/mail/?view=cm&fs=1&to=iliaovinnikov@gmail.com", color: "hover:shadow-cyan-500/40" },
 ];
 
 export default function Contact({ textContact }: { textContact: string }) {
@@ -29,4 +29,5 @@ export default function Contact({ textContact }: { textContact: string }) {
       </div>
     </section>
   );
+
 }
