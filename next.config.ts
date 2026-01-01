@@ -1,3 +1,1 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = { output: 'export', images: { unoptimized: true }, basePath: '/Fake-portfolio' };
-export default nextConfig;
+const nextConfig = { output: 'export', images: { unoptimized: true }, basePath: '/Fake-portfolio' }; export default nextConfig;
