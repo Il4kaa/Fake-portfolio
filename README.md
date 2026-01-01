@@ -6,7 +6,7 @@
 ---
 
 ## 🔗 Ссылки
-* **Посмотреть вживую (Demo):** [il4kaa-fakeportfolio.netlify.app](https://il4kaa-fakeportfolio.netlify.app)
+* **Посмотреть вживую (Demo):** [il4kaa.github.io/Fake-portfolio/](https://il4kaa.github.io/Fake-portfolio/)
 * **Хостинг:** Проект развернут на Netlify с использованием статического экспорта.
 
 ---
