@@ -9,7 +9,7 @@ export default function Header({logoText}: {logoText: string} ) {
         <header className="fixed top-0 w-full z-50 bg-neutral-950/10 backdrop-blur-xl border-b border-white/10">
           <div className="mx-auto px-6 md:px-20 flex justify-between items-center py-6 md:py-10">
             
-            <a href="/" className="text-2xl font-mono font-black bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent hover:from-blue-700 hover:to-cyan-700 hover:scale-105 duration-500 transition z-50">{logoText}</a>
+            <a href="#" className="text-2xl font-mono font-black bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent hover:from-blue-700 hover:to-cyan-700 hover:scale-105 duration-500 transition z-50">{logoText}</a>
 
             <button onClick={() => setIsOpen(!isOpen)} className="md:hidden z-50 p-2 text-white hover:text-blue-500 duration-500 transition">{isOpen ? <X size={35} /> : <Menu size={35} />}</button>
 
@@ -25,5 +25,6 @@ export default function Header({logoText}: {logoText: string} ) {
         </header>
     );
 }
+
 
 
