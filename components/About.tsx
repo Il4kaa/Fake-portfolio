@@ -20,7 +20,7 @@ export default function About({ aboutText }: { aboutText: string }) {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
         <div className="relative w-full h-full">
           <img 
-            src="/37d95b589714c152ae7fd1a088dd0c63.jpg" className="w-full h-full object-cover rounded-3xl border border-neutral-800 shadow-2xl hover:shadow-cyan-500/70" alt="About"
+            src="./37d95b589714c152ae7fd1a088dd0c63.jpg" className="w-full h-full object-cover rounded-3xl border border-neutral-800 shadow-2xl hover:shadow-cyan-500/70" alt="About"
           />
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -38,4 +38,5 @@ export default function About({ aboutText }: { aboutText: string }) {
       <h1 className="text-neutral-400 font-mono font-bold text-center max-w-7xl py-12 text-lg">Я увлеченный разработчик с опытом создания современных веб-приложений. Я специализируюсь на разработке полнофункциональных решений от концепции до реализации. У меня есть опыт работы с различными технологиями, и я всегда стремлюсь осваивать новые инструменты для создания качественных продуктов.</h1>
     </section>
   );
+
 }
